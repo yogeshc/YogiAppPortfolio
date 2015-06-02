@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Yogi\'s App Portfolio</string>
+    <string name="header_text">My Nanodegree Apps!</string>
+    <string name="spotify_streamer">Spotify Streamer</string>
+    <string name="scores_app">Super Duo</string>
+    <string name="library_app">Library App</string>
+    <string name="build_it_bigger">Build it BIGGER</string>
+    <string name="bacon_reader">Bacon Reader</string>
+    <string name="capstone_yogis_app">Capstone - Yogi\'s App</string>
+    <string name="sotify_icon_description">Spotify Icon</string>
+
+    <string name="app1">This button will eventually launch project 1 - Spotify Streamer</string>
+    <string name="app2">This button will eventually launch project 2 - Scores App \(Super Duo\)</string>
+    <string name="app3">This button will eventually launch project 3 - Library App</string>
+    <string name="app4">This button will eventually launch project 4 - Build It Bigger</string>
+    <string name="app5">This button will eventually launch project 5 - Bacon Reader</string>
+    <string name="app6">This button will eventually launch project 6 - Yogi\'s Capstone Project</string>
+
+
+    <string name="action_settings">Settings</string>
+</resources>

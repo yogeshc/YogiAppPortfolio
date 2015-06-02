@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/android_udacity"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <TextView
+        style="@style/HeaderTextView"
+        android:text="@string/header_text" />
+
+    <RelativeLayout
+        style="@style/ButtonRelativeLayoutStyle">
+        <Button
+            android:id="@+id/spotify_streamer"
+            style="@style/ButtonStyle"
+            android:text="@string/spotify_streamer"
+            android:onClick="startSpotifyStreamer"/>
+        <ImageView
+            style="@style/ButtonImageStyle"
+            android:layout_alignBottom="@+id/spotify_streamer"
+            android:contentDescription="@string/sotify_icon_description"
+            android:src="@drawable/spotify_icon" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        style="@style/ButtonRelativeLayoutStyle">
+        <Button
+            android:id="@+id/scores_app"
+            style="@style/ButtonStyle"
+            android:text="@string/scores_app"
+            android:onClick="startScoresApp"/>
+        <ImageView
+            style="@style/ButtonImageStyle"
+            android:layout_alignBottom="@+id/scores_app"
+            android:contentDescription="@string/sotify_icon_description"
+            android:src="@drawable/scores_icon" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        style="@style/ButtonRelativeLayoutStyle">
+        <Button
+            android:id="@+id/library_app"
+            style="@style/ButtonStyle"
+            android:text="@string/library_app"
+            android:onClick="startLibraryApp"/>
+        <ImageView
+            style="@style/ButtonImageStyle"
+            android:layout_alignBottom="@+id/library_app"
+            android:contentDescription="@string/sotify_icon_description"
+            android:src="@drawable/library_icon" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        style="@style/ButtonRelativeLayoutStyle">
+        <Button
+            android:id="@+id/build_it_bigger"
+            style="@style/ButtonStyle"
+            android:text="@string/build_it_bigger"
+            android:onClick="startBuildItBigger"/>
+        <ImageView
+            style="@style/ButtonImageStyle"
+            android:layout_alignBottom="@+id/build_it_bigger"
+            android:contentDescription="@string/sotify_icon_description"
+            android:src="@drawable/build_it_bigger" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        style="@style/ButtonRelativeLayoutStyle">
+        <Button
+            android:id="@+id/bacon_reader"
+            style="@style/ButtonStyle"
+            android:text="@string/bacon_reader"
+            android:onClick="startBaconReader"/>
+        <ImageView
+            style="@style/ButtonImageStyle"
+            android:layout_alignBottom="@+id/bacon_reader"
+            android:contentDescription="@string/sotify_icon_description"
+            android:src="@drawable/bacon_reader_icon" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        style="@style/ButtonRelativeLayoutStyle">
+        <Button
+            android:id="@+id/capstone_yogis_app"
+            style="@style/ButtonStyle"
+            android:text="@string/capstone_yogis_app"
+            android:onClick="startYogisCapstoneProject"/>
+        <ImageView
+            style="@style/ButtonImageStyle"
+            android:layout_alignBottom="@+id/capstone_yogis_app"
+            android:contentDescription="@string/sotify_icon_description"
+            android:src="@drawable/capstone_icon" />
+    </RelativeLayout>
+
+</LinearLayout>
